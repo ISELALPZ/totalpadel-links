@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Abriendo App...</title>
+</head>
+<body>
+
+<script>
+const params = window.location.search;
+const appUrl = "totalpadel.app://conexion" + params;
+
+window.location.href = appUrl;
+
+setTimeout(function() {
+  window.location.href = "https://totalpadel-links-jyoo.vercel.app/fallback";
+}, 2000);
+</script>
+
+<p>Si no se abre automáticamente, instala la app.</p>
+
+</body>
+</html>
