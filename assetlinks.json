@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.companyname.apptotalpadel",
+      "sha256_cert_fingerprints": [
+    "63:83:58:8C:0C:7C:4A:4A:0A:D0:36:1B:D7:AB:AE:B5:44:E2:B0:1F:B4:08:2B:C4:23:1D:A8:F7:FB:68:82:67"
+      ]
+    }
+  }
+]
